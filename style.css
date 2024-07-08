@@ -1,0 +1,242 @@
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+
+/* Configuración de la imagen */
+
+.imagen-omelet {
+  width: 500px;
+  height: 200px;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+.imagen {
+  display: flex;
+  justify-content: center;
+}
+
+/* Configuración de de contenedor */
+
+.contenedor {
+  background-color: white;
+  width: 550px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+/* Configuracuón de fuentes y colores de la descripión*/
+
+.descripcion h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+
+.descripcion p {
+  font-family: "Outfit", sans-serif;
+  color: hsl(30, 10%, 34%);
+  font-size: 13px;
+  margin-bottom: 30px;
+  width: 545px;
+}
+
+/* Configuracuón de fuentes y colores de la preparacion */
+
+.preparacion {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
+  width: 500px;
+  height: 150px;
+}
+
+.preparacion h2 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: hsl(332, 51%, 32%);
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+
+.preparacion ul {
+  display: flex;
+  align-items: center;
+  margin-top: -25px;
+  font-size: 13px;
+  font-family: "Outfit", sans-serif;
+  color: hsl(30, 10%, 34%);
+}
+
+.negrita {
+  color: hsl(30, 10%, 34%);
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.preparacion p {
+  color: hsl(30, 10%, 34%);
+}
+
+.info-preparacion {
+  padding: 10px;
+}
+
+/* Configuración del apartado de ingredientes */
+
+.ingredientes h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+
+.ingredientes ul {
+  display: flex;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 13px;
+  color: hsl(30, 10%, 34%);
+  margin-bottom: -15px;
+  margin-left: -20px;
+}
+
+.ingredientes li {
+  margin-right: 15px;
+}
+
+.ingredientes {
+  margin-bottom: 30px;
+}
+
+/* Linea de separacacion */
+
+.linea {
+  width: 500px;
+  color: hsl(30, 10%, 34%);
+  border-top: 1px transparent;
+}
+
+/* Configuracion de intrucciones */
+
+.instrucciones h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+
+.instrucciones ol {
+  font-family: "Outfit", sans-serif;
+  font-size: 13px;
+  color: hsl(30, 10%, 34%);
+  margin-left: -20px;
+  margin-bottom: 30px;
+  width: 500px;
+}
+
+.instrucciones p {
+  color: hsl(30, 10%, 34%);
+  font-weight: 400;
+}
+
+.instrucciones li {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+/* Configuracion de Nutrición */
+
+.nutricion h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+
+.nutricion p {
+  color: hsl(30, 10%, 34%);
+  font-weight: 400;
+  font-size: 13px;
+  font-family: "Outfit", sans-serif;
+}
+
+.tabla-nutricional ul {
+  display: flex;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+  font-size: 13px;
+  color: hsl(30, 10%, 34%);
+  list-style: none;
+}
+
+.tabla-nutricional p {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+  font-size: 13px;
+  font-family: "Outfit", sans-serif;
+  margin-left: 200px;
+}
+
+.tabla-nutricional li {
+  width: 70px;
+}
+
+.tabla-nutricional hr {
+  margin-bottom: -10px;
+  margin-top: -10px;
+}
+
+/* Configuración menú completo */
+.menu {
+  margin-left: 25px;
+  padding-bottom: 7px;
+}
+
+/* Configuración de vista en moviles */
+
+@media (max-width: 500px) {
+  .contenedor {
+    width: 375px;
+  }
+  .imagen-omelet {
+    width: 350px;
+    height: 150px;
+  }
+
+  .descripcion p {
+    width: 350px;
+  }
+
+  .preparacion {
+    width: 300px;
+  }
+
+  .instrucciones p {
+    width: 300px;
+  }
+
+  .instrucciones li {
+    width: 300px;
+  }
+  /* correción de scroll */
+
+  .instrucciones ol {
+    width: 150px;
+  }
+
+  .nutricion ul {
+    margin-left: -25px;
+  }
+
+  .nutricion li {
+    width: 50px;
+  }
+
+  .linea {
+    width: 320px;
+    margin-left: -1px;
+  }
+}
+
+/* Creditos */
+
+.attribution {
+  margin-top: 15px;
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Recipe page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+
+      .attribution a {
+        color: black;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="contenedor">
+      <div class="imagen">
+        <img
+          class="imagen-omelet"
+          src="/assets/images/image-omelette.jpeg"
+          alt="omelette"
+        />
+      </div>
+
+      <div class="menu">
+        <div class="descripcion">
+          <h1>Simple Omelette Recipe</h1>
+          <p>
+            An easy and quick dish, perfect for any meal. This classic omelette
+            combines beaten eggs cooked to perfection, optionally filled with
+            your choice of cheese, vegetables, or meats.
+          </p>
+        </div>
+
+        <div class="preparacion">
+          <div class="info-preparacion">
+            <h2>Preparation time</h2>
+            <ul>
+              <li></li>
+              <p class="negrita">Total:</p>
+              <p>Approximately 10 minutes</p>
+            </ul>
+            <ul>
+              <li></li>
+              <p class="negrita">Preparation:</p>
+              <p>5 minutes</p>
+            </ul>
+            <ul>
+              <li></li>
+              <p class="negrita">Cooking:</p>
+              <p>5 minutes</p>
+            </ul>
+          </div>
+        </div>
+
+        <div class="ingredientes">
+          <h2>Ingredients</h2>
+
+          <ul>
+            <li></li>
+            <p>2-3 large eggs</p>
+          </ul>
+
+          <ul>
+            <li></li>
+            <p>Salt, to taste</p>
+          </ul>
+
+          <ul>
+            <li></li>
+            <p>Pepper, to taste</p>
+          </ul>
+
+          <ul>
+            <li></li>
+            <p>1 tablespoon of butter or oil</p>
+          </ul>
+
+          <ul>
+            <li></li>
+            <p>
+              Optional fillings: cheese, diced vegetables, cooked meats, herbs
+            </p>
+          </ul>
+        </div>
+
+        <hr class="linea" />
+
+        <div class="instrucciones">
+          <h2>Instructions</h2>
+
+          <ol>
+            <li>
+              <p>
+                <strong>Beat the eggs:</strong>In a bowl, beat the eggs with a
+                pinch of salt and pepper until they are well mixed. You can add
+                a tablespoon of water or milk for a fluffier texture.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <strong>Heat the pan:</strong> Place a non-stick frying pan over
+                medium heat and add butter or oil.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <strong>Cook the omelette:</strong> Once the butter is melted
+                and bubbling, pour in the eggs. Tilt the pan to ensure the eggs
+                evenly coat the surface.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <strong>Add fillings (optional):</strong> When the eggs begin to
+                set at the edges but are still slightly runny in the middle,
+                sprinkle your chosen fillings over one half of the omelette.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <strong>Fold and serve:</strong> As the omelette continues to
+                cook, carefully lift one edge and fold it over the fillings. Let
+                it cook for another minute, then slide it onto a plate.
+              </p>
+            </li>
+
+            <li>
+              <p>
+                <strong>Enjoy:</strong> Serve hot, with additional salt and
+                pepper if needed.
+              </p>
+            </li>
+          </ol>
+        </div>
+
+        <hr class="linea" />
+
+        <div class="nutricion">
+          <h2>Nutrition</h2>
+
+          <p>
+            The table below shows nutritional values per serving without the
+            additional fillings.
+          </p>
+
+          <div class="tabla-nutricional">
+            <ul>
+              <li>Calories</li>
+              <p>277kcal</p>
+            </ul>
+
+            <hr class="linea" />
+
+            <ul>
+              <li>Carbs</li>
+              <p>0g</p>
+            </ul>
+
+            <hr class="linea" />
+
+            <ul>
+              <li>Protein</li>
+              <p>20g</p>
+            </ul>
+
+            <hr class="linea" />
+
+            <ul>
+              <li>Fat</li>
+              <p>22g</p>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Diego Benavides</a>.
+    </div>
+  </body>
+</html>
+
+<!-- <h1>Simple Omelette Recipe</h1>
+<p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection,
+  optionally filled with your choice of cheese, vegetables, or meats.</p>
+<div class="preparacion">
+  <h2>Preparation time</h2>
+  <p>Total: Approximately 10 minutes</p>
+  <p>Preparation: 5 minutes</p>
+  <p>Cooking: 5 minutes</p>
+</div>
+<div class="ingredientes">
+  <h2>Ingredients</h2>
+  <ul>
+    <li>2-3
+</div> -->
